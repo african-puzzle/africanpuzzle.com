@@ -9,9 +9,9 @@ const { lang } = Astro.props;
 
 const categories = [
   { key: 'radio', label: 'Radio & Podcasts' },
-  { key: 'press-release', label: lang === 'fr' ? 'Communiqué de presse' : 'Press Release' },
+  { key: 'press-release', label: t(lang, 'media.filter_press_release') },
   { key: 'articles', label: 'Articles' },
-  { key: 'videos', label: lang === 'fr' ? 'Vidéos' : 'Videos' },
+  { key: 'videos', label: t(lang, 'media.filter_videos') },
   { key: 'social', label: 'Social Mention' },
 ];
 
@@ -340,9 +340,9 @@ const mediaItems = [
 
 const categoryLabels: Record<string, string> = {
   radio: 'Radio & Podcasts',
-  'press-release': lang === 'fr' ? 'Communiqué de presse' : 'Press Release',
+  'press-release': t(lang, 'media.filter_press_release'),
   articles: 'Articles',
-  videos: lang === 'fr' ? 'Vidéos' : 'Videos',
+  videos: t(lang, 'media.filter_videos'),
   social: 'Social Mention',
 };
 
@@ -377,7 +377,7 @@ const ITEMS_PER_PAGE = 9;
         data-filter="all"
         class="filter-btn active px-5 py-2 rounded-full text-sm font-semibold transition-all duration-200 bg-brand-purple-600 text-white"
       >
-        {lang === 'fr' ? 'Tous' : 'All'}
+        {t(lang, 'media.filter_all')}
       </button>
       {categories.map((cat) => (
         <button
@@ -437,7 +437,7 @@ const ITEMS_PER_PAGE = 9;
         id="load-more-btn"
         class="inline-flex items-center px-8 py-3 bg-brand-purple-600 text-white font-semibold rounded-full hover:bg-brand-purple-700 shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 cursor-pointer"
       >
-        {lang === 'fr' ? 'Plus' : 'More'}
+        {t(lang, 'media.load_more')}
       </button>
     </div>
   </div>

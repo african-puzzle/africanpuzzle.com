@@ -69,6 +69,11 @@
   "media.label": "Media",
   "media.title": "For di press",
   "media.subtitle": "See wetin media people dey talk about us",
+  "media.press_article": "Press article",
+  "media.filter_all": "All",
+  "media.filter_press_release": "Press Release",
+  "media.filter_videos": "Videos",
+  "media.load_more": "More",
 
   "privacy.title": "Privacy Policy",
   "privacy.effective": "E start from May 1, 2021",

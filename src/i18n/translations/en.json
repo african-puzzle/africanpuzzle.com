@@ -69,6 +69,11 @@
   "media.label": "Media",
   "media.title": "In the press",
   "media.subtitle": "See what the media says about us",
+  "media.press_article": "Press article",
+  "media.filter_all": "All",
+  "media.filter_press_release": "Press Release",
+  "media.filter_videos": "Videos",
+  "media.load_more": "More",
 
   "privacy.title": "Privacy Policy",
   "privacy.effective": "Effective May 1, 2021",

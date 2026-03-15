@@ -69,6 +69,11 @@
   "media.label": "Médias",
   "media.title": "Dans la presse",
   "media.subtitle": "Découvrez ce que les médias disent de nous",
+  "media.press_article": "Article de presse",
+  "media.filter_all": "Tous",
+  "media.filter_press_release": "Communiqué de presse",
+  "media.filter_videos": "Vidéos",
+  "media.load_more": "Plus",
 
   "privacy.title": "Politique de confidentialité",
   "privacy.effective": "En vigueur depuis le 1er mai 2021",

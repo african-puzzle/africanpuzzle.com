@@ -1,0 +1,22 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Hero from '../../components/sections/Hero.astro';
+import Features from '../../components/sections/Features.astro';
+import Benefits from '../../components/sections/Benefits.astro';
+import Reach from '../../components/sections/Reach.astro';
+import CTA from '../../components/sections/CTA.astro';
+
+const lang = 'fr';
+---
+
+<Layout
+  title="Accueil"
+  description="African Puzzle WORKS - L'application pour s'organiser facilement et tout retenir. L'assistant personnel des artisans, tailleurs, créatifs et entrepreneurs."
+  lang={lang}
+>
+  <Hero lang={lang} />
+  <Features lang={lang} />
+  <Benefits lang={lang} />
+  <Reach lang={lang} />
+  <CTA lang={lang} />
+</Layout>

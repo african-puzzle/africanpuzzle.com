@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand-purple-50: #f3e8ff;
+  --color-brand-purple-100: #e9d5ff;
+  --color-brand-purple-200: #d8b4fe;
+  --color-brand-purple-300: #c084fc;
+  --color-brand-purple-400: #a855f7;
+  --color-brand-purple-500: #9333ea;
+  --color-brand-purple-600: #8c30f5;
+  --color-brand-purple-700: #7c3aed;
+  --color-brand-purple-800: #6b21a8;
+  --color-brand-purple-900: #3d2664;
+  --color-brand-blue-500: #3b82f6;
+  --color-brand-blue-600: #1F5BFF;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Cal Sans', 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-slate-700 dark:bg-slate-900 dark:text-slate-300 antialiased;
+  }
+
+  ::selection {
+    @apply bg-brand-purple-200 text-brand-purple-900;
+  }
+}

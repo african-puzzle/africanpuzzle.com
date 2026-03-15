@@ -1,0 +1,72 @@
+{
+  "site.name": "African Puzzle",
+  "site.tagline": "WORKS",
+
+  "nav.home": "Home",
+  "nav.features": "Wetin E Fit Do",
+  "nav.about": "About Us",
+  "nav.contact": "Contact",
+  "nav.media": "Media",
+  "nav.download": "Download",
+  "nav.language": "Language",
+
+  "hero.title": "Di app wey go help you organize well-well and remember everything",
+  "hero.subtitle": "Personal assistant for tailors, artisans, creative people and business people dem",
+  "hero.cta": "Download for Google Play",
+  "hero.learn_more": "Learn more",
+
+  "features.label": "Wetin E Fit Do",
+  "features.title": "Everything wey you need",
+  "features.subtitle": "African Puzzle WORKS go help you manage your projects, clients and appointments for one place",
+  "features.projects.title": "Programs / Projects",
+  "features.projects.desc": "Put all your project details for one place and track how e dey go",
+  "features.clients.title": "Clients",
+  "features.clients.desc": "Manage your client information with just one click",
+  "features.album.title": "Album",
+  "features.album.desc": "Group your work by theme so you fit show your clients",
+  "features.appointments.title": "Appointments",
+  "features.appointments.desc": "You no go miss any appointment again because of notifications",
+
+  "benefits.label": "Why E Good",
+  "benefits.title": "Why African Puzzle?",
+  "benefits.happy.title": "Make your clients happy",
+  "benefits.happy.desc": "Give professional service wey go make your clients come back",
+  "benefits.time.title": "Save time",
+  "benefits.time.desc": "Make your project management automatic so you fit focus on your creativity",
+  "benefits.efficient.title": "Work beta",
+  "benefits.efficient.desc": "Make your work flow beta and increase how much you dey do every day",
+
+  "reach.label": "For Whole World",
+  "reach.title": "E dey available for 70 countries",
+  "reach.subtitle": "African Puzzle WORKS dey support creative people around the world",
+
+  "cta.title": "You ready to organize?",
+  "cta.subtitle": "Download African Puzzle WORKS free and start today",
+  "cta.button": "Download now",
+
+  "about.label": "About Us",
+  "about.title": "Wealth for everybody",
+  "about.subtitle": "Africa get plenty creativity and creative people don get their own personal assistant!",
+  "about.mission": "African Puzzle WORKS na mobile app wey dem design to help tailors, artisans, creative people and entrepreneurs organize their daily work beta.",
+  "about.team_title": "Our team",
+
+  "contact.label": "Contact",
+  "contact.title": "Make we dey in touch",
+  "contact.subtitle": "No fear to contact us if you get question or suggestion",
+  "contact.address_label": "Address",
+  "contact.address": "African Puzzle, Inc., 21 boulevard Haussmann, 75 009 Paris, France",
+  "contact.email_label": "Email",
+  "contact.social_label": "Social networks",
+
+  "media.label": "Media",
+  "media.title": "For di press",
+  "media.subtitle": "See wetin media people dey talk about us",
+
+  "privacy.title": "Privacy Policy",
+  "privacy.effective": "E start from May 1, 2021",
+
+  "footer.rights": "All rights reserved",
+  "footer.privacy": "Privacy Policy",
+  "footer.made_with": "Dem make am with",
+  "footer.in": "for Paris"
+}

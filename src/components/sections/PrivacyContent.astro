@@ -1,0 +1,68 @@
+---
+import { t, type Locale } from '../../i18n/utils';
+
+interface Props {
+  lang: Locale;
+}
+
+const { lang } = Astro.props;
+---
+
+<section class="pt-32 pb-20 lg:pb-28">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="mb-12">
+      <h1 class="text-4xl font-bold text-slate-900 dark:text-white">
+        {t(lang, 'privacy.title')}
+      </h1>
+      <p class="mt-3 text-slate-500 dark:text-slate-400">
+        {t(lang, 'privacy.effective')}
+      </p>
+    </div>
+
+    <div class="prose prose-slate dark:prose-invert max-w-none prose-headings:font-bold prose-a:text-brand-purple-600">
+      {lang === 'fr' ? (
+        <>
+          <h2>Introduction</h2>
+          <p>African Puzzle, Inc. ("nous", "notre") exploite l'application mobile African Puzzle WORKS. Cette politique de confidentialité vous informe de nos pratiques en matière de collecte, d'utilisation et de divulgation des informations personnelles.</p>
+
+          <h2>Données collectées</h2>
+          <p>Nous collectons les informations que vous nous fournissez directement lorsque vous utilisez notre application, notamment vos projets, informations clients et rendez-vous.</p>
+
+          <h2>Stockage des données</h2>
+          <p>Vos données sont stockées en France sur les serveurs Clever Cloud, conformément aux réglementations européennes en matière de protection des données.</p>
+
+          <h2>Vos droits</h2>
+          <p>Conformément au RGPD et au CCPA, vous disposez de droits sur vos données personnelles, y compris le droit d'accès, de rectification et de suppression.</p>
+
+          <h2>Enfants</h2>
+          <p>Nos services ne sont pas destinés aux enfants de moins de 13 ans.</p>
+
+          <h2>Contact</h2>
+          <p>Pour toute question relative à la confidentialité : <a href="mailto:privacy@africanpuzzle.com">privacy@africanpuzzle.com</a></p>
+          <p>African Puzzle, Inc.<br/>21 boulevard Haussmann<br/>75 009 Paris, France</p>
+        </>
+      ) : (
+        <>
+          <h2>Introduction</h2>
+          <p>African Puzzle, Inc. ("we", "our") operates the African Puzzle WORKS mobile application. This privacy policy informs you of our practices regarding the collection, use and disclosure of personal information.</p>
+
+          <h2>Data Collected</h2>
+          <p>We collect information you provide directly when using our application, including your projects, client information and appointments.</p>
+
+          <h2>Data Storage</h2>
+          <p>Your data is stored in France on Clever Cloud servers, in compliance with European data protection regulations.</p>
+
+          <h2>Your Rights</h2>
+          <p>Under GDPR and CCPA, you have rights over your personal data, including the right to access, rectify and delete.</p>
+
+          <h2>Children</h2>
+          <p>Our services are not intended for children under 13.</p>
+
+          <h2>Contact</h2>
+          <p>For privacy questions: <a href="mailto:privacy@africanpuzzle.com">privacy@africanpuzzle.com</a></p>
+          <p>African Puzzle, Inc.<br/>21 boulevard Haussmann<br/>75 009 Paris, France</p>
+        </>
+      )}
+    </div>
+  </div>
+</section>

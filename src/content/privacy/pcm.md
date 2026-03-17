@@ -1,5 +1,5 @@
 ---
-title: "African Puzzle Privacy Policy"
+title: "African Puzzle Privacy Policy for Your Eyes"
 effectiveDate: "EFFECTIVE UPDATE: May 01, 2021"
 locale: pcm
 ---

@@ -51,7 +51,7 @@ const settings = defineCollection({
     playStoreUrl: z.string(),
     youtubeVideoId: z.string(),
     contactEmail: z.string(),
-    contactPhone: z.string(),
+
     instagramHandle: z.string(),
     instagramUrl: z.string(),
   }),

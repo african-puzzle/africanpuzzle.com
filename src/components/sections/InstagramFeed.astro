@@ -1,7 +1,13 @@
 ---
+import { t, type Locale } from '../../i18n/utils';
 import { getCollection } from 'astro:content';
 import { socialIcons } from '../../lib/social-icons';
 
+interface Props {
+  lang: Locale;
+}
+
+const { lang } = Astro.props;
 const instaPosts = (await getCollection('instagram')).sort((a, b) => a.data.order - b.data.order);
 const site = (await getCollection('settings'))[0].data;
 ---
@@ -31,7 +37,7 @@ const site = (await getCollection('settings'))[0].data;
         >
           <img
             src={post.data.image}
-            alt="African Puzzle on Instagram"
+            alt={t(lang, 'instagram.alt')}
             class="w-full h-full object-cover group-hover:scale-110 group-hover:opacity-80 transition-all duration-500"
             loading="lazy"
           />

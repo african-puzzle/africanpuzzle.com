@@ -1,5 +1,5 @@
 ---
-import { type Locale } from '../../i18n/utils';
+import { t, type Locale } from '../../i18n/utils';
 import { getCollection, render } from 'astro:content';
 
 interface Props {
@@ -21,7 +21,7 @@ const { Content } = await render(entry!);
         {entry!.data.title}
       </h1>
       <p class="mt-4 text-sm uppercase tracking-wider text-slate-400">
-        {entry!.data.effectiveDate}
+        {t(lang, 'privacy.effective')}
       </p>
     </div>
 

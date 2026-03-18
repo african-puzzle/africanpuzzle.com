@@ -30,9 +30,9 @@ export default {
           appointments: '#aad3fa',
         },
         about: {
-          tan: '#eae0ab',
+          bg: '#f3f4f6',
           name: '#340975',
-          role: '#a5a29b',
+          role: '#4b5563',
         },
       },
       fontFamily: {
